@@ -11,7 +11,7 @@ ss.errors_as_exceptions(True)
 
 #JIRA PACKAGE IMPORT AND CREDENTIALS NEEDED FOR API CALLS
 from jira import JIRA
-options = {'server': 'https://promontech.atlassian.net/'}
+options = {'server': '**SERVER NAME**'}
 username = **JIRA USERNAME**
 api_key = **JIRA API KEY**
 jira = JIRA(options, basic_auth=(username,api_key))
